@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+.d1{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+
+}
+nav{
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    padding: 10px;
+    width: 110px;
+}
+li:hover{
+    background-color: aliceblue;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+i{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.content{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
