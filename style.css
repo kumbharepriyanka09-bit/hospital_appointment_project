@@ -9,38 +9,45 @@
     padding: 10px;
 
 }
+
 nav{
-    background-color: blue;
+    background-color: skyblue;
     padding-left:20px ;
     align-items: center;
     display: flex;
-     text-align: right;
+    text-align: right;
     
+     
     
 }
 ul{
     list-style: none;
     display: flex;
-    padding-bottom:0;
+   
 }
 li{
     padding: 10px;
     width: 110px;
-   
+    
 }
 li:hover{
-    background-color: rgb(128, 79, 226);
+    color: blue;
     text-decoration: none;
+    
 }
 a{
     text-decoration: none;
-    color:whitesmoke;
+    color:rgb(14, 14, 14);
+    align-items: center;
+    
 }
 
 i{
     font-size: 30px;
     margin-left: 20px;
-    align-items: center;
+    
+   
+    
 }
 .content{
     width: 100%;
@@ -48,16 +55,44 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(135, 207, 235, 0.361);
+    background-color: rgba(47, 177, 229, 0.169);
     padding-bottom:0;
+    opacity: 1;
+
     
 }
-.logo{
-    font-size: 25px;
-    color: rgb(28, 28, 103);
+
+.N1{
+    align-items: start;
+    align-self: flex-start;
+}
+
+.btn{
+    color: rgb(106, 197, 233);
+    padding-top: 15px;
+    padding-left:250px ;
+
+}
+
+.plus{
+    width: 28px;
+    height: 28px;
+    padding-right:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 28px;
+    padding-top:30px ;
+}
+.hospital{
+    padding-right:70px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    line-height: 1.1;
     
+
+
 }
-.logo span{
-    color:whitesmoke;
-   
-}
+
