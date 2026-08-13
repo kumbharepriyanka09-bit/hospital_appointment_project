@@ -44,3 +44,43 @@ i{
     display: flex;
     padding-right: 30px;
 }
+
+.services{
+  text-align: center;
+    
+}
+
+.card{
+    width: 200px;
+    padding: 10px;
+    box-shadow: 0px 4px 15px 3px rgba(0,0,0,0.43);
+    margin: 15px;
+    display: flex;
+    
+}
+
+.card:hover{
+    box-shadow: 8px 9px 33px -10px blue;
+}
+.card-holder{
+    display: flex;
+    padding-left: 39px;
+
+}
+.doc{
+    text-align: center;
+}
+
+
+
+.search{
+    display: flex;
+    padding-left:40px ;
+    padding-top:3px ;
+    
+}
+.sear-1{
+    padding-left: 15px;
+    width: 200px;
+    gap: 10px;
+}
