@@ -27,10 +27,7 @@ li{
     padding-left: 50px;
     padding-top: 15px;
 }
-li:hover{
-    background-color: white;
-   
-}
+
 a{
     text-decoration: none;
     color: black;
@@ -80,8 +77,6 @@ i{
     text-align: center;
 }
 
-
-
 .search{
     display: flex;
     padding-left:40px ;
@@ -101,18 +96,89 @@ i{
 
 }
 
-.Doctor{
-    display: flex;
-    padding: 10px;
-     align-items: center;
-    justify-content: center;
+.Doctor {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top:10px ;
+}
+
+.card-1 {
+    width: 100% ;
+    padding: 5px;
+    margin: 0;
+    box-shadow: 0px 4px 15px 3px rgba(0,0,0,0.43);
+    box-sizing: border-box;
+}
+
+
+.extra-doctor {
+  display: none;
+}
+
+.Doctor {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.Button {
+  text-align: center;
+  margin-top: 20px;
 
 }
-.card-1{
-    padding: 5px;
-    margin: 10px;
-    box-shadow: 0px 4px 15px 3px rgba(0,0,0,0.43);
+
+.Choose{
+    font-style: bold;
+    text-align: center;
+}
+
+.Card-2{
+    display: flex;
    
+}
+
+.Card-2:hover{
+     box-shadow: none;
+
+}
+
+.card-2{
+     width: 200px;
+    padding: 10px;
+    box-shadow: 0px 4px 15px 3px rgba(0,0,0,0.43);
+    margin: 15px;
+    display: flex;
+
+}
+
+
+.Appointment{
+    font-style: bold;
+    text-align: center;
+}
+
+.Book-Appointment{
+    display: flex;
+    text-align: center;
+}
+
+.HOSPITAL{
+   display: flex;
+}
+
+.Years{
+    display: flex;
+}
+
+.box-1{
+    background-color: rgba(213, 237, 247, 0.685);
+    width: 100%;
+    height: 400px;
     
 }
 
