@@ -182,3 +182,97 @@ i{
     
 }
 
+
+
+.Box-About{
+    background-color: rgba(183, 183, 246, 0.174);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding: none;
+    
+
+}
+.About-Hos{
+    padding: 30px;
+
+}
+.img{
+    padding-right: 10px;
+}
+.Experience{
+    padding:10px ;
+}
+.Expert{
+    padding-left: 50px;
+    padding-top: 10px;
+
+}
+.Happy{
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+.Years{
+    display: flex;
+}
+
+.About-doctor{
+    display: flex;
+}
+.img-hospital{
+  padding-left: 50px;
+  border-radius: 15px;
+}
+.Multi-spec{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.About-Box{
+    background-color: rgba(183, 183, 246, 0.174);
+    width: 100%;
+    height: 300px;
+}
+.Mission{
+    display: flex;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-right: 30px;
+
+}
+.mission-1{
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+    
+    
+}
+.vision{
+    padding-left: 40px;
+}
+
+.Vision_our{
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    padding-right: 20px;
+    
+}
+.vision-1{
+    padding-left:40px ;
+    padding-right: 30px;
+}
+.About-card-card{
+    display: flex;
+}
+.About-Card{
+     width: 200px;
+    padding: 10px;
+    box-shadow: 0px 4px 15px 3px rgba(0,0,0,0.43);
+    margin: 15px;
+}
+
+
