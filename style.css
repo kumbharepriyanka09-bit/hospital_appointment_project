@@ -79,8 +79,10 @@ i{
 
 .search{
     display: flex;
-    padding-left:40px ;
+    padding-left:90px ;
     padding-top:3px ;
+    padding-bottom: 10px;
+    
   
     
 }
@@ -113,6 +115,7 @@ i{
     margin: 0;
     box-shadow: 0px 4px 15px 3px rgba(0,0,0,0.43);
     box-sizing: border-box;
+   
 }
 
 
@@ -122,8 +125,10 @@ i{
 
 .Doctor {
   display: flex;
-  gap: 20px;
+  gap: 90px;
   flex-wrap: wrap;
+  padding-top: 10px;
+  padding-left: 60px;
 }
 
 .Button {
@@ -232,12 +237,14 @@ i{
     background-color: rgba(183, 183, 246, 0.174);
     width: 100%;
     height: 300px;
+
 }
 .Mission{
     display: flex;
-    padding-left: 80px;
+    padding-left: 150px;
     padding-top: 30px;
-    padding-right: 30px;
+    padding-right: 100px;
+    gap: 50px;
 
 }
 .mission-1{
@@ -245,34 +252,102 @@ i{
     border-radius: 20px;
     padding: 40px;
     padding-bottom: 20px;
-    padding-right: 10px;
-    padding-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  
     
     
 }
 .vision{
     padding-left: 40px;
+    padding-right: 100px;
 }
 
 .Vision_our{
     background-color: white;
     border-radius: 20px;
     padding: 40px;
-    padding-right: 20px;
+    padding-right: 10px;
+    padding-left: 30px;
     
 }
 .vision-1{
     padding-left:40px ;
-    padding-right: 30px;
+    padding-right: 80px;
 }
 .About-card-card{
     display: flex;
+    padding-left: 80px;
 }
 .About-Card{
-     width: 200px;
+     width: 250px;
     padding: 10px;
     box-shadow: 0px 4px 15px 3px rgba(0,0,0,0.43);
     margin: 15px;
+    padding-right: 30px;
+    gap: 10px;
+}
+.Department{
+    display: flex;
+}
+.About-Depart{
+    padding-left: 25px;
+    padding-top: 20px;
+
+}
+.Book-Appointment-1{
+    display: flex;
+    padding-left: 50px;
+}
+.About-Box-3{
+    background-color: blue;
+    width: 1180px;
+    height: 150px;
+    
+   
+}
+.Need{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 20px;
+    
+}
+.About-Need{
+    display: flex;
+}
+.About-button{
+    padding-top: 50px;
+    padding-left: 490px;
 }
 
 
+   
+
+
+.doc-box{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(207, 207, 244, 0.263);
+    
+}
+.Doctors-1{
+    display: flex;
+    opacity: none;
+    padding-left: 60px;
+   
+}
+.img-doc{
+    padding-left: 390px;
+}
+.doc-search{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.DOCTORS{
+    background-color:white;
+    width: 100%;
+    height: 60px;
+    padding-right: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.43);
+}
