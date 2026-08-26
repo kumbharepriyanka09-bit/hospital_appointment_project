@@ -16,6 +16,10 @@ nav{
     align-items: center;
     display: flex;
 }
+.nav-btn{
+    padding-left: 370px;
+    padding-top: 20px;
+}
 ul{
     list-style: none;
     display: flex;
@@ -160,6 +164,9 @@ i{
     display: flex;
 
 }
+.card-2:hover{
+    transform: translateY(-7px);
+}
 
 
 .Appointment{
@@ -187,6 +194,8 @@ i{
     
 }
 
+
+/* About page */
 
 
 .Box-About{
@@ -322,7 +331,7 @@ i{
 
 
    
-
+/* Doctors */
 
 .doc-box{
     width: 100%;
@@ -350,4 +359,41 @@ i{
     padding-right: 20px;
     border-radius: 15px;
     box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.43);
+}
+.doc-card-1{
+    width: 100px;
+    padding: 10px;
+    box-shadow: 0px 4px 15px 3px rgba(0,0,0,0.43);
+    padding-top: 10px;
+    margin:15px;
+
+}
+.card-body-1{
+    text-align: center;
+}
+.DOC-Doc-Card{
+    display: flex;
+    transform: translate(-5px);
+    display: flex;
+}
+.doc-card-1:hover{
+    transform: translateY(-5px);
+
+}
+
+
+
+
+
+/* Services */
+
+.Services{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(98, 98, 230, 0.212);
+    display: flex;
+}
+.services-1{
+    padding-left:805px;
+    padding-top: 51px;
 }
